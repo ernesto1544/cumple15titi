@@ -36,24 +36,25 @@ function Card() {
       <div id="card" className={`${cardClass}`} onClick={toggleCard}>     
         <div id="card-inside">
           <div className="wrap">
-            <p>Happy Birthday, John Doe!</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque delectus dolore recusandae eveniet dicta. Corrupti.</p>
+            <p>Felices 15 años, Titi!</p>
+            <p>Hoy el mundo celebra un día muy especial: el inicio de tus 15 años, 
+              una etapa llena de sueños por cumplir, metas por alcanzar y aventuras por vivir.
+               Que este nuevo capítulo esté lleno de alegrías auténticas, 
+               experiencias inolvidables y esa energía única que te hace brillar.</p>
             <p>
-              I hope you have a very blessed birthday!
+            ¡Que Dios te bendiga y te llene de fuerza, salud y sabiduría para conquistar todo lo que te propongas!
             </p>
             <p>
-             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, cum.
+            ¡Brindo por ti y por este viaje increíble que apenas comienza! 🎂✨
             </p>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            </p>
-            <p className="signed">Jane Doe</p>
+      
+            <p className="signed">Ernesto</p>
           </div>
         </div>
 
         <div id="card-front">
           <div className="wrap">
-            <h1>Happy Birthday!</h1>
+            <h1>Feliz Cumpleaños!</h1>
           </div>
         </div>
     </div>
@@ -67,7 +68,7 @@ function Card() {
         transition={{duration: 1.2}}> 
         <Link to ='/cake'>
         <p className="-mt-[4rem] px-7 py-3 bg-customBlue text-white font-medium text-base rounded-full hover:bg-blue-600">
-            Next Page
+            Siguiente Pagina
           </p>
         </Link>
             
