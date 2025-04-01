@@ -100,7 +100,7 @@ function Cake() {
                   stroke="white"
                 />
               </defs>
-              <text fontSize="38" fill="white" textAnchor="middle">
+              <text fontSize="30" fill="white" textAnchor="middle">
                 <textPath href="#curve" startOffset="50%">
                   Feliz Cumpleaños!
                 </textPath>
